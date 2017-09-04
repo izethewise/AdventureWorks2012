@@ -147,6 +147,7 @@
     <Folder Include="HumanResources\XMLSchemaCollections\" />
     <Folder Include="Production\XMLSchemaCollections\" />
     <Folder Include="Sales\XMLSchemaCollections\" />
+    <Folder Include="dbo\Stored Procedures 2" />
   </ItemGroup>
   <ItemGroup>
     <Build Include="Production\Tables\ScrapReason.sql" />
@@ -253,7 +254,6 @@
     <Build Include="dbo\Functions\ufnGetSalesOrderStatusText.sql" />
     <Build Include="dbo\Functions\ufnLeadingZeros.sql" />
     <Build Include="dbo\Functions\ufnGetContactInformation.sql" />
-    <Build Include="dbo\Stored Procedures\uspGetBillOfMaterials.sql" />
     <Build Include="dbo\Stored Procedures\uspGetEmployeeManagers.sql" />
     <Build Include="dbo\Stored Procedures\uspGetManagerEmployees.sql" />
     <Build Include="dbo\Stored Procedures\uspGetWhereUsedProductID.sql" />
@@ -282,5 +282,6 @@
     <Build Include="Production\XMLSchemaCollections\ProductDescriptionSchemaCollection.sql" />
     <Build Include="Sales\XMLSchemaCollections\StoreSurveySchemaCollection.sql" />
     <Build Include="ExtendedProperties.sql" />
+    <Build Include="dbo\Stored Procedures 2\uspGetBillOfMaterials.sql" />
   </ItemGroup>
 </Project>
